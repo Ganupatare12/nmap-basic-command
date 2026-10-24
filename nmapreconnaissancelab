@@ -1,0 +1,35 @@
+Nmap Reconnaissance Lab
+About
+
+This project documents my hands-on learning of Nmap, a network scanning and reconnaissance tool.
+
+Objectives
+Understand basic network reconnaissance
+Identify open and closed ports
+Learn service and version detection
+Document scan results and security observations
+#Tools Used
+-Nmap
+Linux 
+#Commands Practiced
+-bash
+-nmap 127.0.0.1
+-nmap -p 22,80,443 127.0.0.1
+-nmap -sV 127.0.0.1
+-nmap -sV -oN scan-results.txt 127.0.0.1
+
+Results
+
+Actual scan results and screenshots are documented in this repository.
+
+What I Learned
+-Basic port scanning
+-Service detection
+-Saving scan output
+-Interpreting scan results
+-Scope and Safety
+
+All scans are performed only on systems I own
+Author
+
+GitHub: https://github.com/Ganupatare12
